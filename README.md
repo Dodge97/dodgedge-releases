@@ -25,9 +25,6 @@ fair odds is the edge. You set the stake once; from there it runs unattended.
 
 ### Windows
 
-> **v1.0.0 is Mac-only.** The Windows installer is not in this release yet — it
-> follows in the next one. Ask the operator if you need it now.
-
 1. Go to the [latest release](https://github.com/Dodge97/dodgedge-releases/releases/latest)
 2. Download **`DodgEdge-Setup.exe`**
 3. Double-click the installer and follow the steps
