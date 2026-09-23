@@ -108,7 +108,7 @@ When a new version is available, a banner appears in your dashboard:
 
 DodgEdge is **free to install and use**. Your first **€50 in profit is completely free**.
 
-After that, your **performance fee** applies on new profit only — you never pay on losses. The rate agreed for your account is shown in your dashboard under **Billing** and in the terms you accepted during setup.
+After that, your **license fee** applies on new profit only — you never pay on losses. The rate agreed for your account is shown in your dashboard under **Billing** and in the terms you accepted during setup.
 
 ---
 
