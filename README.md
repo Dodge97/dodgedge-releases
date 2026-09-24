@@ -90,6 +90,16 @@ You can close the **DodgEdge dashboard tab** whenever you like — DodgEdge keep
 
 DodgEdge starts automatically when you log in, so a restart brings it back by itself. It does not reopen after you quit it deliberately — start it again from the desktop shortcut (Windows) or Applications (Mac).
 
+### Running DodgEdge on a server
+
+On your own computer you need nothing extra. On a rented server (VPS), bookmakers block most server addresses, so the bet365 window must go through a **proxy in your country of residence**:
+
+1. Open **Settings → Connection**
+2. Paste the proxy from your provider — `http://user:password@host:port`, `host:port:user:password`, or username, password and host:port on separate lines. Use an **HTTP** proxy, not SOCKS.
+3. Click **Test and save**. DodgEdge tests the proxy and shows where it comes out; a proxy outside your country is refused (user agreement § 8.6).
+
+DodgEdge tests the proxy again every time you press start, and does not start while it doesn't work. Don't set the proxy in Windows' own proxy settings — enter it only in DodgEdge.
+
 ---
 
 ## Updates
@@ -118,6 +128,7 @@ After that, your **license fee** applies on new profit only — you never pay on
 |---------|----------|
 | **Banner: "Finish the bookmaker login in the browser window"** | bet365 is asking something DodgEdge can't answer for you. Switch to the bet365 window, finish the step (verification, a robot check, a notice), and DodgEdge continues by itself. If you miss it, it tries again on its own. |
 | **No bets, and no bet365 window** | The bot isn't started: click the **play button next to the DodgEdge logo**. If it is started, quit DodgEdge from the tray and open it again. |
+| **"Not started" with a proxy message** | Your proxy doesn't work right now, or comes out in another country. Open **Settings → Connection**, click **Check now** to see why, and fix it with your proxy provider — or remove the proxy if you run DodgEdge on your own computer. |
 | **No tray icon visible** | **Windows:** Click the **^** arrow in your taskbar. **Mac:** Check the top-right menu bar. |
 | **Dashboard doesn't open** | Go to `http://127.0.0.1:8095` manually |
 | **"Connection refused"** | Make sure DodgEdge is running. If just installed, wait a few seconds and refresh. |
