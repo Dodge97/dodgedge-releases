@@ -77,6 +77,7 @@ While DodgEdge runs, it keeps its own browser window open with bet365 signed in.
 - **Leave it open.** You can minimise it or move it to another desktop, but if you close it, no more bets are placed.
 - **Don't sign out in it**, and don't place bets by hand in that window.
 - **Do help it when it asks.** Sometimes bet365 puts something in the way that only a person can clear. DodgEdge then shows a banner on your dashboard — *"Finish the bookmaker login in the browser window"* — and waits about three minutes. Click into the bet365 window, finish what it's asking, and DodgEdge takes over again on its own.
+- **Windows may ask once whether Chrome may use your location.** You can click **Yes** — it's the same question a website asks in your normal browser. If you click **No**, DodgEdge keeps working as usual.
 
 Your own bet365 account stays yours: you can use bet365 normally in your regular browser, on your phone, whenever you like.
 
